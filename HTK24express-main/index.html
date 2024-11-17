@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <script src="/script" defer></script>
+</head>
+<body>
+  <h1>Welcome to my page</h1>
+  <p>This is my webpage</p>
+
+  <div>
+    <form action="/data" method="post">
+      <div>
+        <label for="name">Skriv ditt namn:</label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div>
+        <label for="age">Skriv din ålder:</label>
+        <input type="number" name="age" id="age" required>
+      </div>
+      <button type="submit">Skicka iväg data</button>
+    </form>
+  </div>
+
+  <div>
+    <button id="btnFetch">Hämta data</button>
+    <div id="tabelOutput"></div>
+  </div>
+
+  <a href="/about">About</a>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Marcus",
+        "age": 36
+    },
+    {
+        "name": "Anders",
+        "age": 36
+    },
+    {
+        "name": "Medieinstitutet",
+        "age": 40
+    },
+    {
+        "name": "Cihan",
+        "age": 40
+    },
+    {
+        "name": "Niklas",
+        "age": "31"
+    },
+    {
+        "name": "Andrea",
+        "age": "28"
+    },
+    {
+        "name": "Johan",
+        "age": "22"
+    }
+]
